@@ -7,7 +7,6 @@ const session = require('express-session');
 const { default: mongoose } = require('mongoose');
 const fs = require('fs');
 
-fs.readFileSync(`${__dirname}\\FILENAME`);
 
 
 const app = express()
