@@ -7,7 +7,6 @@ const { redirect } = require('express/lib/response');
 const fs= require('fs')
 const app= express()
 
-fs.readFileSync(`${__dirname}\\uploads`);
 
 app.use(express.static(__dirname));
 
