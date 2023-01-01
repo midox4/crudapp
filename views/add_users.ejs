@@ -1,0 +1,44 @@
+
+
+
+<%- include ('layout/header')  %>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mx-auto mt-4">
+            <h1> welcome to Add users page </h1>
+<div class="card-body p-4">
+
+    <form action="/add" method="post" id="add-form" enctype="multipart/form-data" >
+        <div class="mb-3">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="text" name="name" placeholder="name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1">email</label>
+          <input type="email" name="email" placeholder="Password">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1">phone</label>
+            <input type="text" name="phone" placeholder="phone">
+          </div>
+
+          <div class="mb-3">
+            <label for="file">select file</label>
+              <input type="file" name="image">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+
+
+
+
+
+</div>
+                    </div>
+    </div>
+</div>
+
+
+<%- include ('layout/footer')  %> 
+
